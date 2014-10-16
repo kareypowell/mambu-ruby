@@ -5,12 +5,12 @@ require 'mambu/ruby/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "mambu-ruby"
-  spec.version       = Mambu::Ruby::VERSION
-  spec.authors       = ["kareypowell"]
-  spec.email         = ["kareyp9@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.version       = Mambu::VERSION
+  spec.authors       = ["Karey Powell"]
+  spec.email         = ["kareypowell@gmail.com"]
+  spec.summary       = %q{A Ruby wrapper for interacting with the Mambu REST API.}
+  spec.description   = %q{A Ruby wrapper for interacting with the Mambu REST API.}
+  spec.homepage      = "http://www.mambu.com/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
