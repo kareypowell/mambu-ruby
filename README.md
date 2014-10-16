@@ -1,6 +1,11 @@
-# Mambu::Ruby
+# Mambu Gem
 
-TODO: Write a gem description
+This gem provides a simple Ruby wrapper for communicating with the Mambu REST API.
+Mambu API follow the Representational state transfer [REST](http://en.wikipedia.org/wiki/Representational_state_transfer)
+standard allowing resources (accounts, client, etc) to be standard with a standard
+set of GET, POST, PUT, DELETE HTTP requests.
+Communication with Mambu follows the REST architecture constraints including being
+stateless & cacheable. All responses are returned as [JSON](http://en.wikipedia.org/wiki/JSON) objects.
 
 ## Installation
 
